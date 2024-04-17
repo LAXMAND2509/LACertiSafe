@@ -1,0 +1,79 @@
+html {
+  font-size: 10px;
+}
+
+.inst_login_form h2 {
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/* Styles for the inst_login_page container */
+.inst_login_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+/* Styles for the inst_login_form_container */
+.inst_login_form_container {
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+/* Styles for the inst_login_form */
+.inst_login_form {
+  text-align: center;
+}
+
+/* Styles for the form elements */
+.inst_login_input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+/* Styles for the error message */
+.error_msg {
+  color: red;
+  margin: 10px 0;
+}
+
+.gifcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inst_login_button {
+  margin: 10px auto;
+  width: 20%;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  font-size: large;
+}
+
+.alternate {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gif {
+  height: 30px;
+  width: 30px;
+}
